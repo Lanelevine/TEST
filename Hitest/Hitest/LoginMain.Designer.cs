@@ -51,15 +51,16 @@
             this.Cancel.TabIndex = 1;
             this.Cancel.Text = "button2";
             this.Cancel.UseVisualStyleBackColor = false;
+            this.Cancel.Click += new System.EventHandler(this.Cancel_Click);
             // 
-            // Form1
+            // LoginMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(215, 323);
             this.Controls.Add(this.Cancel);
             this.Controls.Add(this.Login);
-            this.Name = "Form1";
+            this.Name = "LoginMain";
             this.Text = "Form1";
             this.ResumeLayout(false);
 
