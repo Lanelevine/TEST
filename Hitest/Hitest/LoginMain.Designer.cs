@@ -49,6 +49,7 @@
             this.Login.TabIndex = 0;
             this.Login.Text = "로그인";
             this.Login.UseVisualStyleBackColor = false;
+            this.Login.Click += new System.EventHandler(this.Login_Click);
             // 
             // Cancel
             // 
@@ -119,7 +120,7 @@
             this.Controls.Add(this.Login);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            //this.Name = "LoginMain";
+            this.Name = "LoginMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.ResumeLayout(false);
