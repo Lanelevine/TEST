@@ -33,6 +33,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DevExpress.Data.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v18.2.Core, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraDialogs.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v18.2.Web.WebForms, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,16 +52,55 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Calculator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calculator.Designer.cs">
+      <DependentUpon>Calculator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="error.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="error.Designer.cs">
+      <DependentUpon>error.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginMain.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="LoginMain.Designer.cs">
       <DependentUpon>LoginMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SoketIndex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SoketIndex.Designer.cs">
+      <DependentUpon>SoketIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="test.Designer.cs">
+      <DependentUpon>test.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Calculator.resx">
+      <DependentUpon>Calculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="error.resx">
+      <DependentUpon>error.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginMain.resx">
       <DependentUpon>LoginMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -66,6 +111,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SoketIndex.resx">
+      <DependentUpon>SoketIndex.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

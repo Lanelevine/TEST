@@ -42,8 +42,7 @@
             // 
             this.Login.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.Login.BackColor = System.Drawing.Color.SkyBlue;
-            this.Login.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.Login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Login.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Login.Location = new System.Drawing.Point(14, 131);
             this.Login.Name = "Login";
             this.Login.Size = new System.Drawing.Size(75, 35);
@@ -55,7 +54,7 @@
             // 
             this.Cancel.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.Cancel.BackColor = System.Drawing.Color.SkyBlue;
-            this.Cancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Cancel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Cancel.Location = new System.Drawing.Point(119, 131);
             this.Cancel.Name = "Cancel";
             this.Cancel.Size = new System.Drawing.Size(75, 35);
@@ -104,7 +103,7 @@
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(230, 220);
+            this.panel1.Size = new System.Drawing.Size(220, 191);
             this.panel1.TabIndex = 6;
             // 
             // LoginMain
@@ -120,7 +119,7 @@
             this.Controls.Add(this.Login);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "LoginMain";
+            //this.Name = "LoginMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.ResumeLayout(false);
