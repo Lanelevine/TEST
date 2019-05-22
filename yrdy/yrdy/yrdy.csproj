@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{78B81649-74F8-4869-AD71-33D1C25015DC}</ProjectGuid>
+    <ProjectGuid>{61BAEF3B-B59F-4C34-B590-7F91CC68F3E1}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Hitest</RootNamespace>
-    <AssemblyName>Hitest</AssemblyName>
+    <RootNamespace>yrdy</RootNamespace>
+    <AssemblyName>yrdy</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
